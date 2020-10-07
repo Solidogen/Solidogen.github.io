@@ -3,71 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Solidogen's GitHub Main Page</title>
+        <link href="https://gist.githubusercontent.com/DavidWells/18e73022e723037a50d6/raw/31b030534440f31f3ddcd72c4916cc47eb1be520/reset.css" rel="stylesheet" type="text/css"/>
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
         <script src="../js/alert.js"></script>
     </head>
     <body>
-        <h1>Main Page</h1>
-
-        <ul>
-            <li>Eat</li>
-            <li>Sleep</li>
-            <li>Code</li>
-        </ul>
-
-        <ol>
-            <li>Eat</li>
-            <li>Sleep</li>
-            <li>Code</li>
-        </ol>
-
-        <label>
-            <input placeholder="Enter your email" type="text"/>
-        </label>
-        <br>
-        <br>
-        <button onclick="showAlert()" type="button">Show Alert</button>
-        <br>
-        <br>
-        <form action="flexbox.html">
-            <input type="submit" value="Go to Flexbox test"/>
-        </form>
-        <br>
-        <form action="cssgrid.html">
-            <input type="submit" value="Go to CSS Grid test"/>
-        </form>
-        <br>
-        <form action="cssgridadvanced.html">
-            <input type="submit" value="Go to CSS Grid advanced test"/>
-        </form>
-
-        <p>Click here to view more <a href="#">cat photos</a>.</p>
-
-        <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
-
-        <p>Things cats love:</p>
-        <ul>
-            <li>cat nip</li>
-            <li>laser pointers</li>
-            <li>lasagna</li>
-        </ul>
-        <p>Top 3 things cats hate:</p>
-        <ol>
-            <li>flea treatment</li>
-            <li>thunder</li>
-            <li>other cats</li>
-        </ol>
-
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>
-                Indoor</label>
-            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
-            <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked>
-                Loving</label>
-            <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
-            <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
-            <input type="text" placeholder="cat photo URL" required>
-            <button type="submit">Submit</button>
-        </form>
+        <header>
+            <h1 id="header-title" >Main Page</h1>
+        </header>
+        <main class="main-container">
+            <section class="navigate-buttons-container">
+                <form action="tribute.html">
+                    <input class="button-form-input" type="submit" value="Go to Tribute"/>
+                </form>
+                <form action="survey.html">
+                    <input class="button-form-input" type="submit" value="Go to Survey"/>
+                </form>
+                <form action="productlanding.html">
+                    <input class="button-form-input" type="submit" value="Go to Product Landing"/>
+                </form>
+                <form action="documentation.html">
+                    <input class="button-form-input" type="submit" value="Go to Technical Documentation"/>
+                </form>
+                <form action="portfolio.html">
+                    <input class="button-form-input" type="submit" value="Go to Personal Portfolio"/>
+                </form>
+            </section>
+        </main>
     </body>
 </html>
