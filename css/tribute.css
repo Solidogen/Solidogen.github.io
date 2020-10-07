@@ -430,21 +430,34 @@ template {
 
 body {
     font-family: Arial !important;
+    background-color: white;
 }
 
 #title {
     padding-top: 50px;
-    width: 100%;
-    text-align: center;
     font-size: 3em;
+    text-align: center;
 }
 
 #img-div {
     background-color: #FFF;
+    margin: 16px;
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-caption {
+    padding: 4px 10px 16px 10px;
+    text-align: center;
 }
 
 #gray-background {
     background-color: #EEE;
+    margin: 30px 15px 30px 15px;
+    border-radius: 6px;
 }
 
 #image {
@@ -459,4 +472,37 @@ body {
 
 #timeline-section {
     color: hsla(0, 0%, 0%, 0.7);
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.centering-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info {
+    max-width: 650px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#tribute-info div {
+    color: hsla(0, 0%, 0%, 0.7);
+    text-align: start;
+    line-height: 24px;
+}
+
+#prime-minister {
+    margin-top: 20px;
+}
+
+#link-full-text {
+    color: hsla(0, 0%, 0%, 0.7);
+    padding: 30px 20px 30px 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
